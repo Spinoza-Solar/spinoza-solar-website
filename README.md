@@ -69,6 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### 'naming conventions in this git'
+### `naming conventions in this git`
 
-We will be using kebab case (dash between every word) for file names and pascal case (also known as UpperCamelCase) for component names.
+We will be using kebab case (dash between every word) for asset file names and pascal case (also known as UpperCamelCase) for component names and css and jsx file names.
