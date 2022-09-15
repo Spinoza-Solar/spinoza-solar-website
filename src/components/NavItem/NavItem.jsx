@@ -1,9 +1,11 @@
 import React from 'react';
 import './NavItem.css';
 
-const NavItem = () => {
+const NavItem = (props) => {
     return (
-        <div className="NavItem"></div>
+        <a href={props.href} className="NavItem">
+            <div className="NavItem">{props.text}</div>
+        </a>
     )
 }
 

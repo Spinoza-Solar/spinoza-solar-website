@@ -1,9 +1,12 @@
 import React from 'react';
 import './NavItems.css';
+import {NavItem} from "../index";
 
 const NavItems = () => {
     return (
-        <ul className="NavItems"></ul>
+        <ul className="NavItems">
+            <NavItem></NavItem>
+        </ul>
     )
 }
 

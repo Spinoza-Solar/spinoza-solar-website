@@ -1,0 +1,8 @@
+.NavItems {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: calc((100% - 20vh) * 0.9);
+    align-items: center;
+    justify-content: right;
+}
