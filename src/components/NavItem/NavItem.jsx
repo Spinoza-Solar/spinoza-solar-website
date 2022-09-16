@@ -4,7 +4,7 @@ import './NavItem.css';
 const NavItem = (props) => {
     return (
         <a href={props.href} className="NavItem">
-            <div className="NavItem">{props.text}</div>
+            {props.children}
         </a>
     )
 }

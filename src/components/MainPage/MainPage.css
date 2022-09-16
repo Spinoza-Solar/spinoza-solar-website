@@ -1,0 +1,18 @@
+#MainPage {
+    width: 100vw;
+    height: 100vh;
+    background: url("../../assets/MainBackgroundUnedited.JPG");
+    background-size: cover;
+    background-position: 50% 35%;
+}
+
+#MainPage::before {
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background:
+            linear-gradient(90deg, var(--bg-color-primary) 1%, transparent 60%),
+            linear-gradient(0deg, var(--bg-color-primary) 1%, transparent 15%, transparent 70%, var(--bg-color-primary) 95%),
+            radial-gradient(ellipse at 150% 50%, rgba(128, 128, 128, 0) 47%, rgba(31, 71, 91, 1) 100%);
+}

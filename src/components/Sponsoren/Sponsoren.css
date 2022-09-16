@@ -1,0 +1,9 @@
+.Sponsoren {
+    width: calc(100% - 10vw);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin: 1vw 5vw;
+    display: flex;
+    justify-content: center;
+}
