@@ -1,0 +1,10 @@
+.ReadMoreButton {
+    width: fit-content;
+    height: fit-content;
+    padding: .5rem;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

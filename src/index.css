@@ -7,6 +7,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 a {
@@ -21,6 +22,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Remove scrollbar Chrome, Sarfari, Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Remove scrollbar IE, Edge, Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 code {

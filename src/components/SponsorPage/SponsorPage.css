@@ -1,0 +1,19 @@
+#SponsorPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.LeftContent,
+.RightContent {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    width: 50%;
+}
