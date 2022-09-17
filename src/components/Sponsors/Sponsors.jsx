@@ -1,7 +1,7 @@
-import './Sponsoren.css';
-import { Sponsor} from "../index";
+import './Sponsors.css';
+import { Sponsor } from "../index";
 
-const Sponsoren = () => {
+const Sponsors = () => {
     return (
         <div className="Sponsoren">
             <Sponsor>Zuiderlicht</Sponsor>
@@ -11,4 +11,4 @@ const Sponsoren = () => {
     )
 }
 
-export default Sponsoren
+export default Sponsors

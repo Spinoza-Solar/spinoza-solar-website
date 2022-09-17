@@ -5,11 +5,13 @@ function SponsorPage() {
     return (
         <div id="SponsorPage">
             <div className="LeftContent">
-                <h1>Sponsoren</h1>
-                <p>We hebben altijd sponsoren nodig, verder mag zar een leuk tekstje hier vezinnen</p>
+                <div className="LeftContentSubclass">
+                    <h1 className="SponsorsTitle">Sponsors</h1>
+                    <p>We hebben altijd sponsoren nodig, verder mag Zar een leuk textje verzinnen, ow en ff kiezen of we sponsors of sponsoren gebruiken</p>
+                </div>
             </div>
             <div className="RightContent">
-                <ReadMoreButton href="/Sponsoren" />
+                <ReadMoreButton href="/Sponsors" />
             </div>
         </div>
     )

@@ -6,6 +6,7 @@
 
 .LeftContent,
 .RightContent {
+    font-size: 1.5rem;
     width: 50%;
     height: 100%;
     display: flex;
@@ -14,6 +15,15 @@
     justify-content: center;
 }
 
+.LeftContentSubclass {
+    width: 75%;
+}
+
 p {
-    width: 50%;
+    width: 75%;
+}
+
+.SponsorsTitle {
+    margin: 20px 0;
+    padding: 0;
 }

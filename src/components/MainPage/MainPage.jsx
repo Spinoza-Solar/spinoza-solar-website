@@ -1,10 +1,10 @@
 import './MainPage.css';
-import { Sponsoren } from '../index';
+import { Sponsors } from '../index';
 
 const MainPage = () => {
     return (
         <div id="MainPage">
-            <Sponsoren />
+            <Sponsors />
         </div>
     )
 }

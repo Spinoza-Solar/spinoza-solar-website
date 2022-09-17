@@ -4,6 +4,13 @@
     background: url("../../assets/MainBackgroundUnedited.JPG");
     background-size: cover;
     background-position: 50% 35%;
+    z-index: -1;
+}
+
+/* Give all children of main page a zindex of 1 so they are not affected by ::after blur */
+
+#MainPage > * {
+    z-index: 1;
 }
 
 #MainPage::before {
@@ -15,4 +22,13 @@
             linear-gradient(90deg, var(--bg-color-primary) 1%, transparent 60%),
             linear-gradient(0deg, var(--bg-color-primary) 1%, transparent 15%, transparent 70%, var(--bg-color-primary) 95%),
             radial-gradient(ellipse at 150% 50%, rgba(128, 128, 128, 0) 47%, rgba(31, 71, 91, 1) 100%);
+}
+
+#MainPage:after {
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    -webkit-mask-image: radial-gradient(circle at 65% 120%, #0000 50%, rgba(0, 0, 0, 0.9) 70%);
+    backdrop-filter: blur(10px);
 }

@@ -1,3 +1,12 @@
 .App {
     background: var(--bg-color-primary);
 }
+
+/* Give all h1 a solar gradient background */
+
+h1 {
+    width: fit-content;
+    background: -webkit-linear-gradient(0deg, white, var(--solar-yellow-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
