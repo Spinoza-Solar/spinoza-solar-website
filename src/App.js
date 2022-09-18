@@ -2,7 +2,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
-import { Navbar } from "./components";
+import {Footer, Navbar} from "./components";
 import { HomePage, MediaPage, NewsPage, SponsorPage} from "./pages";
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
                     <SponsorPage />
                 </Route>
             </Switch>
+        <Footer />
     </div>
   );
 }
