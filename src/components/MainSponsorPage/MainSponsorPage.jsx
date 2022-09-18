@@ -1,7 +1,7 @@
-import './SponsorPage.css';
+import './MainSponsorPage.css';
 import { ReadMoreButton } from "../index";
 
-function SponsorPage() {
+function MainSponsorPage() {
     return (
         <div id="SponsorPage">
             <div className="LeftContent">
@@ -17,4 +17,4 @@ function SponsorPage() {
     )
 }
 
-export default SponsorPage
+export default MainSponsorPage

@@ -5,10 +5,10 @@ import {NavItem} from "../index";
 const NavItems = () => {
     return (
         <ul className="NavItems">
-            <NavItem href="https://youtube.com">About</NavItem>
-            <NavItem href="https://google.com">Sponsor</NavItem>
-            <NavItem href="https://google.com">Media</NavItem>
-            <NavItem href="https://google.com">News</NavItem>
+            <NavItem href="/About">About</NavItem>
+            <NavItem href="/Sponsors">Sponsor</NavItem>
+            <NavItem href="/Media">Media</NavItem>
+            <NavItem href="/News">News</NavItem>
         </ul>
     )
 }
