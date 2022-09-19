@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.cadbebff.css",
-    "main.js": "/static/js/main.112eda80.js",
+    "main.js": "/static/js/main.e1be46d1.js",
     "static/js/787.bdc619e5.chunk.js": "/static/js/787.bdc619e5.chunk.js",
     "static/media/MainBackgroundUnedited.JPG": "/static/media/MainBackgroundUnedited.a484aee15a329514c322.JPG",
     "static/media/SpinozaSolarLogoTransparantV2.png": "/static/media/SpinozaSolarLogoTransparantV2.e7353ac31a9f48ad158c.png",
     "index.html": "/index.html",
     "main.cadbebff.css.map": "/static/css/main.cadbebff.css.map",
-    "main.112eda80.js.map": "/static/js/main.112eda80.js.map",
+    "main.e1be46d1.js.map": "/static/js/main.e1be46d1.js.map",
     "787.bdc619e5.chunk.js.map": "/static/js/787.bdc619e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cadbebff.css",
-    "static/js/main.112eda80.js"
+    "static/js/main.e1be46d1.js"
   ]
 }
