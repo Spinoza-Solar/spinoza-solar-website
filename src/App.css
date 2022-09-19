@@ -10,3 +10,9 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.NavbarFiller {
+    width: 100vw;
+    height: 10vh;
+    background: var(--bg-color-primary);
+}
