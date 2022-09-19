@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f1073c7.css",
-    "main.js": "/static/js/main.9415ca7b.js",
-    "static/js/787.bdc619e5.chunk.js": "/static/js/787.bdc619e5.chunk.js",
-    "static/media/MainBackgroundUnedited.JPG": "/static/media/MainBackgroundUnedited.a484aee15a329514c322.JPG",
-    "static/media/SpinozaSolarLogoTransparantV2.png": "/static/media/SpinozaSolarLogoTransparantV2.e7353ac31a9f48ad158c.png",
-    "index.html": "/index.html",
-    "main.9f1073c7.css.map": "/static/css/main.9f1073c7.css.map",
-    "main.9415ca7b.js.map": "/static/js/main.9415ca7b.js.map",
-    "787.bdc619e5.chunk.js.map": "/static/js/787.bdc619e5.chunk.js.map"
+    "main.css": "/spinoza-solar-website/static/css/main.89ae0e5d.css",
+    "main.js": "/spinoza-solar-website/static/js/main.cbc424d4.js",
+    "static/js/787.bdc619e5.chunk.js": "/spinoza-solar-website/static/js/787.bdc619e5.chunk.js",
+    "static/media/MainBackgroundUnedited.JPG": "/spinoza-solar-website/static/media/MainBackgroundUnedited.a484aee15a329514c322.JPG",
+    "static/media/SpinozaSolarLogoTransparantV2.png": "/spinoza-solar-website/static/media/SpinozaSolarLogoTransparantV2.e7353ac31a9f48ad158c.png",
+    "index.html": "/spinoza-solar-website/index.html",
+    "main.89ae0e5d.css.map": "/spinoza-solar-website/static/css/main.89ae0e5d.css.map",
+    "main.cbc424d4.js.map": "/spinoza-solar-website/static/js/main.cbc424d4.js.map",
+    "787.bdc619e5.chunk.js.map": "/spinoza-solar-website/static/js/787.bdc619e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f1073c7.css",
-    "static/js/main.9415ca7b.js"
+    "static/css/main.89ae0e5d.css",
+    "static/js/main.cbc424d4.js"
   ]
 }
