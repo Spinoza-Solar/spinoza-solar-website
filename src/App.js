@@ -13,7 +13,7 @@ function App() {
                 <Route exact path="/">
                     <HomePage />
                 </Route>
-                <Route exact path="About">
+                <Route exact path="/About">
                     <div className="NavbarFiller"></div>
                     <AboutPage />
                 </Route>
